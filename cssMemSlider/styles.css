@@ -55,10 +55,25 @@ body {
   display: block;
   width: 100%;
   height: 100%;
-  background-image: url("./assets/img/mem1.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+}
+
+.slider__slide_1 {
+  background-image: url("./assets/img/mem1.jpg");
+}
+
+.slider__slide_2 {
+  background-image: url("./assets/img/mem2.jpg");
+}
+
+.slider__slide_3 {
+  background-image: url("./assets/img/mem3.jpg");
+}
+
+.slider__slide_4 {
+  background-image: url("./assets/img/mem4.jpg");
 }
 
 .buttons-text-wrapper {
