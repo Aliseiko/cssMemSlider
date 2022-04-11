@@ -14,7 +14,7 @@ body {
 }
 
 .title {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Playfair Display', serif;
   text-align: center;
 }
 
@@ -62,6 +62,9 @@ body {
 }
 
 .slider__text {
+  font-family: 'Playfair Display', serif;
+  font-weight: bold;
+  font-size: 2rem;
   width: 100%;
   min-width: 100%;
   max-width: 100%;
