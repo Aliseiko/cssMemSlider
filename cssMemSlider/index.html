@@ -9,31 +9,46 @@
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-<div class="slider">
-  <div class="slider__slides">
-    <div class="slider__slide slider__slide_1"></div>
-    <div class="slider__slide slider__slide_2"></div>
-    <div class="slider__slide slider__slide_3"></div>
-    <div class="slider__slide slider__slide_4"></div>
-  </div>
-  <div class="slider__buttons">
-    <input type="radio" id="slider__button_1" name="button" checked>
-    <label for="slider__button_1"></label>
+<div class="wrapper">
+  <h1 class="title">CSS Mem Slider</h1>
+  <div class="slider">
+    <div class="slider__slides">
+      <div class="slider__slides-body">
+        <div class="slider__slide slider__slide_1"></div>
+        <div class="slider__slide slider__slide_2"></div>
+        <div class="slider__slide slider__slide_3"></div>
+        <div class="slider__slide slider__slide_4"></div>
+      </div>
+    </div>
+    <div class="buttons-text-wrapper">
+      <div class="slider__buttons">
+        <input type="radio" id="slider__button_1" name="button" checked>
+        <label class="slider__button" for="slider__button_1">
+            <div class="slider__switcher slider__switcher_1"></div>
+        </label>
 
-    <input type="radio" id="slider__button_2" name="button">
-    <label for="slider__button_2"></label>
+        <input type="radio" id="slider__button_2" name="button">
+        <label class="slider__button" for="slider__button_2">
+          <div class="slider__switcher slider__switcher_2"></div>
+        </label>
 
-    <input type="radio" id="slider__button_3" name="button">
-    <label for="slider__button_3"></label>
+        <input type="radio" id="slider__button_3" name="button">
+        <label class="slider__button" for="slider__button_3">
+          <div class="slider__switcher slider__switcher_3"></div>
+        </label>
 
-    <input type="radio" id="slider__button_4" name="button">
-    <label for="slider__button_4"></label>
-  </div>
-  <div class="slider__textarea">
-    <div class="slider__text slider__text_1"></div>
-    <div class="slider__text slider__text_2"></div>
-    <div class="slider__text slider__text_3"></div>
-    <div class="slider__text slider__text_4"></div>
+        <input type="radio" id="slider__button_4" name="button">
+        <label class="slider__button" for="slider__button_4">
+          <div class="slider__switcher slider__switcher_4"></div>
+        </label>
+      </div>
+      <div class="slider__textarea">
+        <div class="slider__text slider__text_1">Нельзя так просто взять и... <br>уйти от бабушки не поев</div>
+        <div class="slider__text slider__text_2">222222</div>
+        <div class="slider__text slider__text_3">333333</div>
+        <div class="slider__text slider__text_4">444444</div>
+      </div>
+    </div>
   </div>
 </div>
 </body>
