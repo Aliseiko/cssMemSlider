@@ -19,6 +19,7 @@ body {
 
 .title {
   font-family: 'Playfair Display', serif;
+  text-shadow: 1px 1px 3px gray;
   text-align: center;
 }
 
@@ -90,7 +91,7 @@ body {
 .slider__textarea {
   display: flex;
   overflow: hidden;
-  width: 75%;
+  width: 70%;
 }
 
 @media (max-width: 767px) {
@@ -106,6 +107,7 @@ body {
   font-family: 'Playfair Display', serif;
   font-size: 2rem;
   font-weight: bold;
+  text-shadow: 1px 1px 3px gray;
   transition: 0.5s;
 }
 
@@ -117,9 +119,10 @@ body {
 
 .slider__buttons {
   display: flex;
+  align-items: flex-start;
   justify-content: flex-end;
   order: 2;
-  width: 25%;
+  width: 35%;
   text-align: right;
 }
 
