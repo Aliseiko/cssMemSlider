@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+        content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>CSS Mem Slider</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+<div class="wrapper">
+  <h1 class="title">CSS Mem Slider</h1>
+  <div class="slider">
+    <input type="radio" id="slider__button_1" name="button" checked>
+    <input type="radio" id="slider__button_2" name="button">
+    <input type="radio" id="slider__button_3" name="button">
+    <input type="radio" id="slider__button_4" name="button">
+
+    <div class="slider__slides">
+      <div class="slider__slides-body">
+        <div class="slider__slide slider__slide_1"></div>
+        <div class="slider__slide slider__slide_2"></div>
+        <div class="slider__slide slider__slide_3"></div>
+        <div class="slider__slide slider__slide_4"></div>
+      </div>
+    </div>
+    <div class="buttons-text-wrapper">
+      <div class="slider__buttons">
+        <label class="slider__button" for="slider__button_1">
+          <span class="slider__switcher slider__switcher_1"></span>
+        </label>
+
+        <label class="slider__button" for="slider__button_2">
+          <span class="slider__switcher slider__switcher_2"></span>
+        </label>
+
+        <label class="slider__button" for="slider__button_3">
+          <span class="slider__switcher slider__switcher_3"></span>
+        </label>
+
+        <label class="slider__button" for="slider__button_4">
+          <span class="slider__switcher slider__switcher_4"></span>
+        </label>
+      </div>
+      <div class="slider__textarea">
+        <div class="slider__text slider__text_1">Чак Норрис бросил гранату и убил 50 человек...<br>...a потом она взорвалась</div>
+        <div class="slider__text slider__text_2">У Чака Норриса нет своего дома.<br>Он просто входит в любой, и хозяева переезжают</div>
+        <div class="slider__text slider__text_3">Чак Норрис не знает страха.<br>Страх знает Чака Норриса.<br>И боится
+          его
+        </div>
+        <div class="slider__text slider__text_4">Чак Норрис принимает снотворное,<br>чтобы моргать</div>
+      </div>
+    </div>
+  </div>
+</div>
+</body>
+</html>
